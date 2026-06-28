@@ -72,25 +72,6 @@ Requires Node 18+ (built and tested on Node 20/24).
 
 ---
 
-## ▲ Deploy to Vercel
-
-This is a standard Vite app, so Vercel auto-detects everything:
-
-1. Push the project to a Git repository (GitHub/GitLab/Bitbucket).
-2. In Vercel, **Add New → Project** and import the repo.
-3. Confirm the framework preset is **Vite** with:
-   - **Build Command:** `npm run build`
-   - **Output Directory:** `dist`
-   - **Install Command:** `npm install`
-4. Click **Deploy**.
-
-No environment variables are required for the MVP.
-
-> If you later add real integrations, copy **`.env.example`** to **`.env`** (git-ignored) and use
-> the `VITE_` prefix for any client-exposed variables. Never commit real secrets.
-
----
-
 ## 🗂️ Project structure
 
 ```
